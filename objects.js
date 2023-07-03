@@ -13,19 +13,23 @@ var foods = {
 
 // Write code that prints all of the 'keys' of the foods variable 
 // you created above:
-// YOUR CODE HERE
+
+console.log(Object.keys(foods));
 
 // Write code that prints all of the 'values' of the foods variable 
 // you created above:
-// YOUR CODE HERE
+
+console.log(Object.values(foods));
 
 // Write code that prints the value of the second food of the foods variable 
 // you created above:
-// YOUR CODE HERE
+
+var secondFood= foods.grapes;
+console.log(secondFood);
 
 // Write code that adds a food to the foods object. 
 // Then, print the updated object:
-// YOUR CODE HERE
+foods.watermelon = 5;
 
 
 // -------------------
@@ -41,14 +45,22 @@ var foods = {
 
 // Write code that logs your email object to the terminal.
 
+var email = {
+  sender: "maria@gmail.com",
+  recipient: "delfina@gmail.com",
+  subjet: "consult",
+  date: "fecha: 10 nov 2022",
+  status: "received"
+}
+
 
 // Write code that logs all of the 'keys' of the email object 
 // you created above:
-// YOUR CODE HERE
+Object.keys(email);
 
 // Write code that logs all of the 'values' of the email object 
 // you created above:
-// YOUR CODE HERE
+Object.values(email);
 
 
 // -------------------
@@ -99,3 +111,29 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+
+emails = [
+  {
+    sender: "romina@gmail.com",
+    recipient: "rodrigo@gmail.com",
+    subjet: "study material",
+    date: "fecha: 10 nov 2022",
+    status: "received"
+  }, 
+  {
+    sender: "luis@gmail.com",
+    recipient: "karen@gmail.com",
+    subjet: "consult",
+    date: "fecha: 15 may 2023",
+    status: "read"
+  },
+  {  
+    sender: "luisana@gmail.com",
+    recipient: "sabrina@gmail.com",
+    subjet: "info",
+    date: "fecha: 2 dec 2022",
+    status: "received"
+  }
+];
+
+console.log(emails);
